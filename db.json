@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Salvador Stewart Flynn Thomas Salva Salve...",
+      "email": "frontend_develop@gmail.com",
+      "phone": "+38 (098) 278 44 24",
+      "specialty": "Leading specialist of the department of cent..."
+    },
+    {
+      "name": "Takamaru Ayako Jurrien",
+      "email": " Takamuru@gmail.com",
+      "phone": "+38 (098) 278 90 24",
+      "specialty": "Lead Independent Director",
+      "id": 2
+    },
+    {
+      "name": "Ilya",
+      "email": "Ilya_founder@gmail.com",
+      "phone": "+38 (098) 235 44 24",
+      "specialty": "Co-Founder and CEO",
+      "id": 3
+    },
+    {
+      "name": "Alexandre",
+      "email": "Alexandr_develop@gmail.com",
+      "phone": "+38 (098) 198 44 24",
+      "specialty": "Lead Independent Director",
+      "id": 4
+    },
+    {
+      "name": "Winny",
+      "email": "Winny_develop@gmail.com",
+      "phone": "+38 (098) 278 22 88",
+      "specialty": "Former Senior Director",
+      "id": 5
+    },
+    {
+      "name": "Simon",
+      "email": "Simon@gmail.com",
+      "phone": "+38 (098) 278 44 00",
+      "specialty": "President of Commerce",
+      "id": 6
+    }
+  ]
+}

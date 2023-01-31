@@ -1,0 +1,73 @@
+.header {
+    .header-log {
+        height: 60px;
+        padding: 13px 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+
+        .header-log-logotype{
+            width: 104px;
+            height: 26px;
+            background-image: url('../../Image/Logo.svg');
+            background-repeat: no-repeat;
+            img{
+                width: 100%;
+            }
+        }
+        .header-log-buttons{
+            width: 210px;
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                width: 100px;
+                height: 34px;
+                background: #F4E041;
+                border-radius: 80px;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    background:  #FFE302;
+                }
+            }
+        }
+    }
+    .header-title{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Image/pexels-alexandr-podvalny-1227513.jpeg');
+        background-size: cover;
+        background-position-y: bottom;
+
+        .header-title-content {
+            width: 380px;
+            text-align: center;
+            color: white;
+
+            h1{
+                font-size: 40px;
+            }
+            p{
+                margin-top: 21px;
+            }
+            button{
+                width: 100px;
+                height: 34px;
+                margin-top: 32px;
+                background: #F4E041;
+                border-radius: 80px;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    background:  #FFE302;
+                }
+            }
+        }
+    }
+}
