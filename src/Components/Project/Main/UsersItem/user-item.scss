@@ -1,0 +1,40 @@
+.UsersItem{
+    max-width: 370px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px;
+
+    .UsersItem-image{
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 70px;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    .UsersItem-name{
+        margin: 20px;
+
+        p{
+            text-align: center;
+        }
+    }
+    .UsersItem-allInfo{
+        p{
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .UsersItem{
+        margin: 20px auto;
+    }
+}
